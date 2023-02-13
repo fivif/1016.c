@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<windows.h>
+int main (){
+	int a;
+	system("shutdown -s -t 7200");
+	scanf("%d",&a);
+	if(a==1)
+	{ 
+		system("shutdown -a");
+	}
+	
+	return 0;
+} 
